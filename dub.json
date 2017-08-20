@@ -8,5 +8,5 @@
 	},
 	"description": "Multi-language compiler",
 	"copyright": "Copyright © 2017, Edmund",
-	"license": "proprietary"
+	"license": "GPLv3"
 }

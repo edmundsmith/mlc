@@ -1,20 +1,6 @@
 import std.stdio, std.algorithm, std.range, std.conv, std.process, std.file, std.string, std.regex;
 import pegged.grammar;
 
-enum testStr = "
-void add(int x, int y) lang C
-{
-    return x + y;
-}
-
-void sub(int x, int y) lang nasm
-{
-    mov eax, ecx
-    sub eax, edx
-    ret
-}
-";
-
 mixin(`
 FDecl:
 	Code < Func+
