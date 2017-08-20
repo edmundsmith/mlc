@@ -1,0 +1,12 @@
+{
+	"name": "mlc",
+	"authors": [
+		"Edmund"
+	],
+	"dependencies": {
+		"pegged": "~>0.4.2"
+	},
+	"description": "Multi-language compiler",
+	"copyright": "Copyright © 2017, Edmund",
+	"license": "proprietary"
+}
