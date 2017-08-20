@@ -13,8 +13,13 @@ int sub(int x, int y) lang nasm
     ret
 }
 
+int mul(int x, int y) lang D
+{
+    return x * y;
+}
+
 int main(int argc, char** argv) lang C
 {
-    printf("%d\n", sub(add(3,5), 4));
+    printf("%d\n", mul(2, sub(add(3,5), 4)));
     return 0;
 }
